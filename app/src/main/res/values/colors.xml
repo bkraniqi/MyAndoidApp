@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="moneta_emerald_dark">#063D2E</color>
+    <color name="moneta_emerald">#0B6B4F</color>
+    <color name="moneta_gold">#D8B86A</color>
+    <color name="splash_light">#F6F7F5</color>
+    <color name="splash_dark">#0B0D0C</color>
+</resources>

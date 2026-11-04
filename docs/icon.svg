@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="432" height="432">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#128763"/><stop offset="0.55" stop-color="#0A5E45"/><stop offset="1" stop-color="#04362A"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.13"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="card" x1="34" y1="44" x2="70" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B8913F"/><stop offset="0.5" stop-color="#F1DB98"/><stop offset="1" stop-color="#C9A458"/>
+    </linearGradient>
+    <linearGradient id="body" x1="28" y1="39" x2="81" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBFAF6"/><stop offset="1" stop-color="#DDE3DF"/>
+    </linearGradient>
+    <linearGradient id="tab" x1="58" y1="48" x2="87" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0E7556"/><stop offset="1" stop-color="#06402F"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="63" y1="51" x2="77" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F6E2A6"/><stop offset="0.45" stop-color="#D8B86A"/><stop offset="1" stop-color="#A67F33"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,0h108v108h-108z" fill="url(#bg)"/>
+  <path d="M0,0h108L0,108z" fill="url(#sheen)"/>
+  <path d="M33.5,41.5L64.2,31.6Q67.1,30.7 68,33.6L70.6,41.5L36,47.5Z" fill="url(#card)"/>
+  <path d="M35,39H74A7,7 0 0,1 81,46V71A7,7 0 0,1 74,78H35A7,7 0 0,1 28,71V46A7,7 0 0,1 35,39Z" fill="url(#body)"/>
+  <path d="M31,47.5H78" stroke="#0A5E45" stroke-opacity="0.2" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M68,48H84A3,3 0 0,1 87,51V65A3,3 0 0,1 84,68H68A10,10 0 0,1 68,48Z" fill="url(#tab)"/>
+  <path d="M70,58m-7.2,0a7.2,7.2 0 1,0 14.4,0a7.2,7.2 0 1,0 -14.4,0" fill="url(#coin)"/>
+  <path d="M73.1,55.1A3.9,3.9 0 1,0 73.1,60.9" fill="none" stroke="#064B37" stroke-width="1.35" stroke-linecap="round"/>
+  <path d="M66.3,57.1H71.3M66.3,59.2H70.8" fill="none" stroke="#064B37" stroke-width="1.1" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Gold card peeking out of the wallet -->
+    <path android:pathData="M33.5,41.5L64.2,31.6Q67.1,30.7 68,33.6L70.6,41.5L36,47.5Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="34" android:startY="44"
+                android:endX="70" android:endY="32">
+                <item android:offset="0" android:color="#FFB8913F" />
+                <item android:offset="0.5" android:color="#FFF1DB98" />
+                <item android:offset="1" android:color="#FFC9A458" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Wallet body -->
+    <path android:pathData="M35,39H74A7,7 0 0,1 81,46V71A7,7 0 0,1 74,78H35A7,7 0 0,1 28,71V46A7,7 0 0,1 35,39Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="28" android:startY="39"
+                android:endX="81" android:endY="78">
+                <item android:offset="0" android:color="#FFFBFAF6" />
+                <item android:offset="1" android:color="#FFDDE3DF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Upper fold line of the wallet -->
+    <path
+        android:pathData="M31,47.5H78"
+        android:strokeWidth="1.2"
+        android:strokeColor="#330A5E45"
+        android:strokeLineCap="round" />
+
+    <!-- Clasp tab -->
+    <path android:pathData="M68,48H84A3,3 0 0,1 87,51V65A3,3 0 0,1 84,68H68A10,10 0 0,1 68,48Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="58" android:startY="48"
+                android:endX="87" android:endY="68">
+                <item android:offset="0" android:color="#FF0E7556" />
+                <item android:offset="1" android:color="#FF06402F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Metallic coin -->
+    <path android:pathData="M70,58m-7.2,0a7.2,7.2 0 1,0 14.4,0a7.2,7.2 0 1,0 -14.4,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="63" android:startY="51"
+                android:endX="77" android:endY="65">
+                <item android:offset="0" android:color="#FFF6E2A6" />
+                <item android:offset="0.45" android:color="#FFD8B86A" />
+                <item android:offset="1" android:color="#FFA67F33" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Euro mark -->
+    <path
+        android:pathData="M73.1,55.1A3.9,3.9 0 1,0 73.1,60.9"
+        android:strokeWidth="1.35"
+        android:strokeColor="#FF064B37"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M66.3,57.1H71.3M66.3,59.2H70.8"
+        android:strokeWidth="1.1"
+        android:strokeColor="#FF064B37"
+        android:strokeLineCap="round" />
+</vector>

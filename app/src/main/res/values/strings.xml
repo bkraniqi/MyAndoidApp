@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moneta</string>
+    <string name="channel_budget_name">Budget alerts</string>
+    <string name="channel_budget_desc">Warnings when you approach or exceed a budget</string>
+</resources>
